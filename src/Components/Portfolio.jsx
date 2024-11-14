@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/project.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Project Image";
 
 /**
  * Project list
@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Spotify Clone ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A Spotify clone built with HTML, CSS, JavaScript. This project is a simplified version of the popular music streaming service. Spotify. It allows users to play songs, play previous and next songs, increase/decrease/mute volume of songs. It is a responsive website.",
+    url: "https://github.com/mugdhaz31/spotify_clone.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "To-Do-List",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "This To-Do List App is a simple and intuitive task management application that allows users to efficiently organize their daily activities. Users can add tasks, delete tasks, and mark tasks as complete. Each task is timestamped with the date and time when it was added and completed, providing a clear record of your productivity.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Amazon Clone",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed an Amazon clone project using HTML and CSS.",
+    url: "https://github.com/mugdhaz31/Amazon_Clone.git",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Dlyan Estate",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Dlyan Estate is a visionary real estate project focused on creating sustainable and modern living spaces that blend comfort, innovation, and community.",
+    url: "https://github.com/mugdhaz31/Dylan_Estates.git",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
