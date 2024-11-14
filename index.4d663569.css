@@ -1,0 +1,122 @@
+@import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #4a4e69;
+  background-color: #faf3dd;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  overflow-x: hidden;
+}
+
+div#main {
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+}
+
+section {
+  width: 100vw;
+  position: relative;
+}
+
+section.min-height {
+  min-height: 100vh;
+}
+
+section.padding {
+  padding: 2rem 0;
+}
+
+section img.background {
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  width: 100vmax;
+  filter: brightness(90%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+h1 {
+  color: #2c292c;
+  margin: 0;
+  font-family: Cormorant Garamond, serif;
+  font-size: 7rem;
+  font-weight: 400;
+  line-height: .8;
+}
+
+h2 {
+  color: #3f4256;
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h3 {
+  color: #4a4e69;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+p {
+  color: #22223b;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+p.large {
+  color: #22223b;
+  font-size: 24px;
+}
+
+p.small {
+  color: #4a4e69;
+  font-size: 15px;
+}
+
+hr {
+  border-color: #9a8c98;
+  margin: 2.5rem;
+}
+
+li {
+  color: #4a4e69;
+  line-height: 1.7;
+}
+
+li::marker {
+  color: #9a8c98;
+}
+
+a {
+  color: #22223b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9a8c98;
+}
+
+.container {
+  grid-gap: 20px;
+  grid-template-columns: 330px 300px;
+  margin: 20px auto;
+  display: grid;
+}
+
+img.socialIcon {
+  height: 30px;
+  width: 30px;
+  filter: grayscale(30%);
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
